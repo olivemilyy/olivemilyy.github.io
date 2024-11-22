@@ -1,0 +1,74 @@
+/* reset basico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #000000e7;
+    background-color: #7ecde0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* cabeçalho */
+header{
+    background-color: #9b37d4;
+    color: #110000;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1{
+    margin-bottom: 0.5rem;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li{
+    margin: 0 1rem;
+}
+header nav ul li a{
+    color: #0bceff;
+    text-decoration: none;
+    font-weight: bold;
+}
+header nav ul li a:hover{
+    color: #3a3b7e;
+}
+/* layout principal */
+
+main{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     padding: 1.5em;
+}
+/* seção */
+
+section{
+    background-color: #accdd3;
+    padding: 1rem 0;
+    margin: 1rem 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px black;
+    width: 100%;
+}
+section#home{
+    width: 100%;
+}
+section h2{
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+footer{
+    text-align: center;
+}
